@@ -29,7 +29,7 @@ body {
 .navbar {
     background: linear-gradient(135deg, var(--primary-blue) 0%, var(--secondary-red) 100%);
     color: var(--accent-white);
-    padding: 1rem 0;
+    padding: 0.5rem 0;
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -45,23 +45,21 @@ body {
 .logo {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 8px;
 }
 
 .logo-image {
-    height: 40px;
-    width: auto;
-    max-width: 50px;
-}
-
-.flag-symbol {
-    font-size: 2rem;
+    height: 50px;
+    width: 50px;
+    object-fit: contain;
 }
 
 .logo h1 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: bold;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
+    margin: 0;
+    line-height: 1;
 }
 
 .nav-links {
@@ -74,6 +72,7 @@ body {
     color: var(--accent-white);
     text-decoration: none;
     font-weight: 500;
+    font-size: 0.95rem;
     transition: opacity 0.3s;
 }
 
@@ -422,6 +421,16 @@ body {
 @media (max-width: 768px) {
     .nav-links {
         gap: 1rem;
+        font-size: 0.9rem;
+    }
+
+    .logo-image {
+        height: 40px;
+        width: 40px;
+    }
+
+    .logo h1 {
+        font-size: 1rem;
     }
 
     .hero-content h1 {
@@ -444,7 +453,17 @@ body {
 @media (max-width: 480px) {
     .nav-links {
         gap: 0.5rem;
+        font-size: 0.8rem;
+    }
+
+    .logo-image {
+        height: 35px;
+        width: 35px;
+    }
+
+    .logo h1 {
         font-size: 0.9rem;
+        letter-spacing: 0.5px;
     }
 
     .hero-content h1 {
@@ -455,9 +474,5 @@ body {
     .team-grid,
     .news-grid {
         grid-template-columns: 1fr;
-    }
-
-    .logo-image {
-        height: 35px;
     }
 }
