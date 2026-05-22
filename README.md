@@ -2,7 +2,7 @@
 
 ## Compatriots For Reforms Kenya (CRK) Party
 
-**Slogan:** The Urgency of Now 🚩
+**Slogan:** The Urgency of Now 
 
 ### About
 The official website for the Compatriots For Reforms Kenya (CRK) Party - A political party committed to transforming Kenya through progressive policies, transparent governance, and citizen-centered development.
@@ -24,7 +24,7 @@ The official website for the Compatriots For Reforms Kenya (CRK) Party - A polit
 - **Black:** #000000
 
 ### Party Symbol
-🚩 Raised Flag - Representing the party's commitment to leadership and progress
+ Raised Flag - Representing the party's commitment to leadership and progress
 
 ### Files Included
 
