@@ -48,6 +48,12 @@ body {
     gap: 10px;
 }
 
+.logo-image {
+    height: 40px;
+    width: auto;
+    max-width: 50px;
+}
+
 .flag-symbol {
     font-size: 2rem;
 }
@@ -449,5 +455,9 @@ body {
     .team-grid,
     .news-grid {
         grid-template-columns: 1fr;
+    }
+
+    .logo-image {
+        height: 35px;
     }
 }
